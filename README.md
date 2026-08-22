@@ -54,3 +54,6 @@ This project uses YOLO model weights (`.pt` files).
 
 Model files are not included in this repository because they can be large.
 Place the required model file in the project directory before running the detection scripts.
+## Notes
+
+This repository is used for Git and GitHub practice.
