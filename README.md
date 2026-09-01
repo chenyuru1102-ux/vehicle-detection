@@ -57,3 +57,22 @@ Place the required model file in the project directory before running the detect
 ## Notes
 
 This repository is used for Git and GitHub practice.
+
+## Detection Results
+### Nighttime Driving
+
+![Nighttime Detection](assets/night_car.png)
+
+Vehicle detection under low-light nighttime conditions.
+
+### Aerial View
+
+![Aerial Vehicle Detection](assets/top_car.png)
+
+Vehicle detection from a top-down aerial perspective.
+
+### Daytime Driving
+
+![Daytime Detection](assets/day_car.png)
+
+Vehicle detection in daytime urban traffic.
