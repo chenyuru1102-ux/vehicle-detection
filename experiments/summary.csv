@@ -1,0 +1,5 @@
+experiment,model,data,epochs,batch,imgsz,device,precision,recall,mAP50,mAP50-95,actual_csv_rows
+road/train,yolo26n.pt,dataset/data.yaml,20,16,640,cpu,0.00667,0.8,0.00621,0.00294,20
+road/train-5,yolo11n.pt,dataset/data.yaml,50,8,640,cpu,0.9559,0.84426,0.91645,0.49097,50
+parking/train-4,yolo11n.pt,dataset/data_combine.yaml,20,4,416,cpu,0.87304,0.76744,0.86583,0.52595,20
+parking/train-5,yolo11n.pt,dataset/data_combine.yaml,50,4,416,cpu,0.90261,0.88373,0.9208,0.59474,50

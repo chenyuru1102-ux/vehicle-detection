@@ -1,0 +1,9 @@
+# Public copy. Local path prefix omitted. Original preserved privately.
+path: dataset
+
+
+train: images/train
+val: images/val
+
+names:
+  0: car

@@ -1,0 +1,6 @@
+# Portable example for a user-supplied dataset.
+# Place this YAML inside your dataset root alongside images/ and labels/.
+train: images/train
+val: images/val
+names:
+  0: vehicle

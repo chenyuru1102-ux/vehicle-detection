@@ -1,32 +1,26 @@
-# Virtual environment
+# Private research data and generated outputs
 .venv/
-venv/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# PyCharm
 .idea/
-
-# YOLO output
-runs/
-
-# Model weights
 *.pt
-
-# Videos
+*.pth
 *.mp4
 *.avi
 *.mov
-
-# Dataset / generated data
-dataset/
-extracted_frames/
-images/
-labels/
-new_labels/
-
-# OS files
-.DS_Store
-Thumbs.db
+*.mkv
+*.zip
+*.jpg
+*.jpeg
+*.png
+!experiments/**/BoxPR_curve.png
+!experiments/**/BoxF1_curve.png
+!experiments/**/BoxP_curve.png
+!experiments/**/BoxR_curve.png
+!experiments/**/confusion_matrix.png
+!experiments/**/confusion_matrix_normalized.png
+!experiments/**/results.png
+originals/
+dataset/images/
+dataset/labels/
+runs/
